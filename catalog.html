@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Глейси</title>
+  </head>
+  <body>
+     <header class="main-header">
+			  <div class="container">
+				  <div class="index-logo">
+						<img src="http://placehold.it/150x100" alt="Логотип">
+					</div>
+          <nav class="main-navigation">
+						<ul>
+							<li> <select name="catalog" class="catalog">
+											<option>Каталог</option>
+											<option a href="#">Новинки</option>
+								      <option a href="#">Сливочное</option>
+								      <option a href="#">Щербеты</option>
+								      <option a href="#">Фруктовый лед</option>
+								      <option a href="#">Мелорин</option>
+								   </select></li>											
+							<li> <a href="#">Доставка и оплата</a></li>
+							<li> <a href="#">О Компании</a></li>							
+						</ul>											
+					</nav>
+					<div>
+						<div>
+							<form>
+              <input type="search" name="search" value=Поиск по сайту> 
+              <input type="submit" value=Найти>
+						  </form>
+							<a href="#">Вход</a>
+							<a class="basket"	href="#">Корзина</a>	
+						</div>
+						<div class="main-time-work">	
+						  <p class="time-work">C 10 до 20, ежедневно</p>
+						  <p class="tel-number">8 812 450-25-25</p>
+						</div>
+				  </div>
+			 </div>
+		</header>
+			 <main class="container">
+				 <div class="breadcrumbs">
+				     <select name="breadcrumbs" multiple size="3">
+							 <option a href="#">Главная</option>
+							 <option a href="#">Каталог</option>
+							 <option a href="#">Сливочное</option>
+					   </select>
+				 </div>
+				 <div class="filter">
+				     <h2>Сливочное мороженое</h2>
+					   <form>
+							 <div>
+								 <p>Сортировка:</p>
+							   <select name="sorting">
+								  <option>По популярности</option><!-- открывал через ps нет никах скрытых хз или я не то делаю--> 
+								 </select>
+							 </div>
+					   <div>
+							 <p>Цена: 100 руб.-500р.</p>
+							 	<!--тут radio через js работает вроде-->					 
+						 </div>
+							 <div class="fat">
+							 <lable>
+								 <p>Жирность:</p>
+							   <input type="radio" name="procent" value="0%">
+								 0%
+								 <input type="radio" name="procent" value="10%">
+								 до 10%
+								 <input type="radio" name="procent" value="to30%">
+								 до 30%
+								 <input type="radio" name="procent" value="more30%">
+								 выше 30%								
+							 </lable>
+							 </div>
+							 <div class="fillers">
+							 <lable>
+								 <p>Наполнители:</p>
+								 <input type="radio" name="choice" value="type-one">
+								 шоколадные
+								 <input type="radio" name="choice" value="type-two">
+								 сахарные
+								 <input type="radio" name="choice" value="type-three">
+								 фрукты
+								 <input type="radio" name="choice" value="type-four">
+								 сиропы
+								 <input type="radio" name="choice" value="type-five">
+								 джемы
+							 </lable>
+								 <input type="submit" name="submit" value="Применить">	
+							 </div>
+						 </form>
+				 </div>
+			   <section class="product-wrapper">
+					  <article class="product-item">				   
+								 <img src="http://placehold.it/150x100">
+								 <p>310Р/кг</p>
+								 <a class="product-item-1" href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>	 							  
+						</article>
+						<article class="product-item">				   
+								 <img src="http://placehold.it/150x100">
+								 <p>380Р/кг</p>
+								 <a class="product-item-2" href="#">Сливочно-кофейное с кусочками шоколада</a>	 							  
+						</article>
+						<article class="product-item">				   
+								 <img src="http://placehold.it/150x100">
+								 <p>355Р/кг</p>
+								 <a class="product-item-3" href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>	 							  
+						</article>
+					  <article class="product-item">				   
+								 <img src="http://placehold.it/150x100">
+								 <p>415Р/кг</p>
+								 <a class="product-item-4" href="#">Сливочное крем-брюлес карамельной присыпкой</a>	 							  
+						</article>
+						<article class="product-item">				   
+								 <img src="http://placehold.it/150x100">
+								 <p>325Р/кг</p>
+								 <a class="product-item-5" href="#">Сливочное с брусничным джемом</a>	 							  
+						</article>
+						<article class="product-item">				   
+								 <img src="http://placehold.it/150x100">
+								 <p>410Р/кг</p>
+								 <a class="product-item-6" href="#">Сливочно-черничное с цельными ягодами черники</a>	 							  
+						</article>
+						<article class="product-item">				   
+								 <img src="http://placehold.it/150x100">
+								 <p>375Р/кг</p>
+								 <a class="product-item-7" href="#">Сливочно-лимонное с карамельной присыпкой</a>	 							  
+						</article>
+					  <article class="product-item">				   
+								 <img src="http://placehold.it/150x100">
+								 <p>320Р/кг</p>
+								 <a class="product-item-8" href="#">Сливочное с шоколадной стружкой</a>	 							  
+						</article>
+						<article class="product-item">				   
+								 <img src="http://placehold.it/150x100">
+								 <p>440Р/кг</p>
+								 <a class="product-item-9" href="#">Сливочно-ванильное с кусочками шоколада</a>	 							  
+						</article>
+						<article class="product-item">				   
+								 <img src="http://placehold.it/150x100">
+								 <p>435Р/кг</p>
+								 <a class="product-item-10" href="#">Сливочное с ментоловым сиропом</a>	 							  
+						</article>
+						<article class="product-item">				   
+								 <img src="http://placehold.it/150x100">
+								 <p>355Р/кг</p>
+								 <a class="product-item-11" href="#">Сливочное с кусочками черного шоколада</a>	 							  
+						</article>
+					  <article class="product-item">				   
+								 <img src="http://placehold.it/150x100">
+								 <p>420Р/кг</p>
+								 <a class="product-item-12" href="#">Сливочное с мятным сиропом</a>	 							  
+						</article>
+				  </section>
+					 <div class="flipping">
+					       <button a href="#" class="prew"><</button>
+								 <button a href="#" class="btn">1</button>
+								 <button a href="#" class="btn">2</button>
+								 <button a href="#" class="btn">3</button>
+								 <button a href="#" class="btn">4</button>
+								 <button a href="#" class="btn">5</button>
+								 <button a href="#" class="next">></button>	 					 
+					 </div>
+		 <footer class="main-footer">
+				<div class="container">
+				    <section class="footer-social">
+						   <a class="social-btn-twit" href="#"><img src="#"></a>
+            	 <a class="social-btn-inst" href="#"><img src="#"></a>
+            	 <a class="social-btn-fb" href="#"><img src="#"></a>
+							 <a class="social-btn-vk" href="#"><img src="#"></a>	
+						</section>
+						<section class="footer-about">
+							 <a href="#">&hearts;Для поставщиков</a>
+							 <a href="#">О производстве</a>
+							 <a href="#">Наши документы</a>
+							 <a href="#">Экологические стандарты</a>													 
+						</section>
+						<section class="footer-copyright">
+						   <a href="https://htmlacademy.ru"><img src="#">html academy</a><br>
+							 <p class="footer-copyright-1">Сделано в HTML Academy &copy; 2016 </p>							
+						</section>					
+				</div>		
+		 </footer>
+ </body>
+</html>
+					 
+					     
+							 
+					 
+					   
+				 
+		
+		
+		
+		
+		
+	
+			 
