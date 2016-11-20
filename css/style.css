@@ -13,3 +13,86 @@ h3 {
 font-weight: bold;
 color: black;
 }
+.main-header {
+min-height: 125px;
+}
+.container { 
+    width: 1151px;
+    padding-left: 22px;
+    padding-right: 27px;
+    margin: auto;
+}
+.index-logo {
+    min-height: 75px;
+    width: 153px;
+    padding-left: 22px;
+    padding-top: 10px;
+    padding-right: 30px;
+    float: left;   
+}
+.main-navigation {
+    min-height: 50px;
+    width: 350px;
+    float: left;
+}
+.user-block { 
+    min-height: 120px;
+    width: 267px;
+    float: right;
+    padding-left: 7px;
+}
+.time-work {
+  padding-left: 100px;  
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*.entrance {
+    height: 215px;
+    width: 277px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 60px;
+    margin-right: 150px;
+    
+}
+.feedback {
+    min-height: 455px;
+    margin: auto;
+    margin-top: 340px;
+    width: 477;
+}*/
+.main {
+    margin-bottom: 35px;
+}
+.top {
+    
+}
+.container .slider {
+    margin-left: auto;
+    margin-right: auto;
+    height: 881px;
+    width: 1045px;
+}
+.main-left {
+    width: 560px;
+    height: 229px;
+    float: left;
+    margin-right: 20px;
+}
+.main-right {
+    width: 560px;
+    height: 229px;
+    float: right;
+}
+.main-right .stock {
+    padding-right: 71px;
+    padding-left: 80px;
+    padding-top: 100px;
+    padding-bottom: 141px;
+}
+.product-wrapper {
+    
+}
